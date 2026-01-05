@@ -1,0 +1,109 @@
+# .github/CODEOWNERS
+
+# This file defines who owns different parts of the codebase
+# When a pull request is opened that modifies files in these paths,
+# the specified users will be automatically requested for review
+
+# Global owners (required for all changes)
+* @LifeJiggy
+
+# Documentation
+*.md @LifeJiggy
+docs/ @LifeJiggy
+README.md @LifeJiggy
+
+# Core application code
+src/ @LifeJiggy
+app/ @LifeJiggy
+lib/ @LifeJiggy
+
+# Configuration files
+.github/ @LifeJiggy
+.gitlab-ci.yml @LifeJiggy
+Dockerfile* @LifeJiggy
+docker-compose*.yml @LifeJiggy
+
+# Package management
+package.json @LifeJiggy
+package-lock.json @LifeJiggy
+requirements.txt @LifeJiggy
+Pipfile @LifeJiggy
+Cargo.toml @LifeJiggy
+go.mod @LifeJiggy
+
+# CI/CD and automation
+.github/workflows/ @LifeJiggy
+scripts/ @LifeJiggy
+Makefile @LifeJiggy
+
+# Testing
+test/ @LifeJiggy
+tests/ @LifeJiggy
+__tests__/ @LifeJiggy
+spec/ @LifeJiggy
+*.test.* @LifeJiggy
+*.spec.* @LifeJiggy
+
+# Database and migrations
+migrations/ @LifeJiggy
+db/ @LifeJiggy
+schema/ @LifeJiggy
+
+# Frontend assets
+public/ @LifeJiggy
+static/ @LifeJiggy
+assets/ @LifeJiggy
+styles/ @LifeJiggy
+css/ @LifeJiggy
+
+# API and backend
+api/ @LifeJiggy
+server/ @LifeJiggy
+backend/ @LifeJiggy
+controllers/ @LifeJiggy
+routes/ @LifeJiggy
+
+# Security and authentication
+auth/ @LifeJiggy
+security/ @LifeJiggy
+middleware/ @LifeJiggy
+
+# Infrastructure and deployment
+infrastructure/ @LifeJiggy
+deployment/ @LifeJiggy
+terraform/ @LifeJiggy
+ansible/ @LifeJiggy
+kubernetes/ @LifeJiggy
+
+# Monitoring and logging
+monitoring/ @LifeJiggy
+logging/ @LifeJiggy
+metrics/ @LifeJiggy
+
+# Legal and compliance
+LICENSE @LifeJiggy
+LICENSE* @LifeJiggy
+LEGAL/ @LifeJiggy
+compliance/ @LifeJiggy
+
+# Examples:
+# If you have multiple teams, you can specify different owners for different areas:
+# /frontend/ @frontend-team
+# /backend/ @backend-team
+# /mobile/ @mobile-team
+
+# You can also use email addresses instead of usernames:
+# docs/ user@example.com
+
+# For more complex rules, you can use patterns:
+# *.config.js @config-team
+# src/components/** @ui-team
+# src/utils/** @utils-team
+
+# Optional reviewers (not required, but suggested)
+# These will be added as reviewers but won't block the PR
+# docs/ @documentation-team
+
+# Emergency contacts for critical files
+# If you need immediate attention for security issues
+# SECURITY.md @security-team @emergency-contact

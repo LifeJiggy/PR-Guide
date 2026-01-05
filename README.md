@@ -1,5 +1,11 @@
 # Production Guide Toolkit
 
+[![GitHub stars](https://img.shields.io/github/stars/LifeJiggy/PR-Guide?style=social)](https://github.com/LifeJiggy/PR-Guide)
+[![GitHub license](https://img.shields.io/github/license/LifeJiggy/PR-Guide)](https://github.com/LifeJiggy/PR-Guide/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/LifeJiggy/PR-Guide)](https://github.com/LifeJiggy/PR-Guide)
+[![GitHub issues](https://img.shields.io/github/issues/LifeJiggy/PR-Guide)](https://github.com/LifeJiggy/PR-Guide/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/LifeJiggy/PR-Guide)](https://github.com/LifeJiggy/PR-Guide/pulls)
+
 Welcome to the **Production Guide** toolkit! This comprehensive collection of guides provides advanced and professional strategies, commands, and workflows for contributing to open source projects, managing production-ready code, and mastering GitHub usage.
 
 ## 📋 Table of Contents
@@ -16,6 +22,7 @@ Welcome to the **Production Guide** toolkit! This comprehensive collection of gu
 - **[`Git-Branching/BranchManagementBestPractices.md`](Git-Branching/BranchManagementBestPractices.md)**: Best practices for creating, managing, and merging branches in collaborative projects.
 - **[`Git-Branching/ForkingStrategies.md`](Git-Branching/ForkingStrategies.md)**: Comprehensive strategies for forking repositories and maintaining sync with upstream.
 - **[`Git-Branching/ForcePushWhenAndHowToUseSafely.md`](Git-Branching/ForcePushWhenAndHowToUseSafely.md)**: When and how to use force pushes safely.
+- **[`Git-Branching/PopularBranchingModels.md`](Git-Branching/PopularBranchingModels.md)**: Compare Git Flow vs GitHub Flow vs Trunk-Based Development with pros/cons and diagrams.
 
 ### Commits and Pull Requests
 - **[`Commits-PRs/CommitMessageConventions.md`](Commits-PRs/CommitMessageConventions.md)**: Professional commit message standards and conventional commit format guide.
@@ -34,6 +41,8 @@ Welcome to the **Production Guide** toolkit! This comprehensive collection of gu
 - **[`Automation-Integration/GitHubActionsCIIntegrationTips.md`](Automation-Integration/GitHubActionsCIIntegrationTips.md)**: Tips for integrating CI with GitHub Actions.
 - **[`Automation-Integration/GitHubAutomation.md`](Automation-Integration/GitHubAutomation.md)**: Automation scripts, tools, and workflows for streamlining GitHub operations and contributions.
 - **[`Automation-Integration/GitHubAPI.md`](Automation-Integration/GitHubAPI.md)**: Using the GitHub API.
+- **[`Automation-Integration/ReusableWorkflows.md`](Automation-Integration/ReusableWorkflows.md)**: Guide to callable/reusable GitHub Actions workflows.
+- **[`Automation-Integration/AdvancedActionsTips.md`](Automation-Integration/AdvancedActionsTips.md)**: Advanced GitHub Actions features including matrices, concurrency, environments, secrets management, and OIDC.
 
 ### Security and Troubleshooting
 - **[`Security-Troubleshooting/GitHubSecurity.md`](Security-Troubleshooting/GitHubSecurity.md)**: Security best practices, vulnerability management, and secure contribution workflows.
@@ -51,10 +60,19 @@ Welcome to the **Production Guide** toolkit! This comprehensive collection of gu
 - **[`Specialized/CrossTeamCollaboration.md`](Specialized/CrossTeamCollaboration.md)**: Cross-team collaboration.
 - **[`Specialized/SecurityPractices.md`](Specialized/SecurityPractices.md)**: Security practices.
 
+### Advanced Topics
+- **[`Advanced-Topics/MonorepoManagement.md`](Advanced-Topics/MonorepoManagement.md)**: Tools and strategies for managing large repositories, including Git LFS, submodules, and modern tools like Nx/Turbo.
+- **[`Advanced-Topics/GitHooksAndPreCommit.md`](Advanced-Topics/GitHooksAndPreCommit.md)**: Comprehensive implementation guide for Git hooks and pre-commit tools to maintain code quality.
+- **[`Advanced-Topics/PerformanceOptimization.md`](Advanced-Topics/PerformanceOptimization.md)**: Git performance optimization for large repositories including sparse checkout, shallow clones, and performance techniques.
+
 ### Templates & Checklists
 - **[`Templates-Checklists/RELEASE_CHECKLIST.md`](Templates-Checklists/RELEASE_CHECKLIST.md)**: Checklist for releases.
 - **[`Templates-Checklists/COMMIT_CONVENTION.md`](Templates-Checklists/COMMIT_CONVENTION.md)**: Commit convention guidelines.
 - **[`Templates-Checklists/CodeReviewChecklist.md`](Templates-Checklists/CodeReviewChecklist.md)**: Code review checklist.
+- **[`Templates-Checklists/DEPENDABOT.yml`](Templates-Checklists/DEPENDABOT.yml)**: GitHub Dependabot configuration for automated dependency updates.
+- **[`Templates-Checklists/CODEOWNERS`](Templates-Checklists/CODEOWNERS)**: CODEOWNERS file for automatic reviewer assignment.
+- **[`Templates-Checklists/FUNDING.yml`](Templates-Checklists/FUNDING.yml)**: FUNDING.yml for GitHub Sponsors and sponsorship setup.
+- **[`Templates-Checklists/CITATION.cff`](Templates-Checklists/CITATION.cff)**: Citation File Format for academic citing of the toolkit.
 
 ### Onboarding and Setup
 - **[`Onboarding-Setup/ContributorOnboarding.md`](Onboarding-Setup/ContributorOnboarding.md)**: Onboarding new contributors.
@@ -64,6 +82,8 @@ Welcome to the **Production Guide** toolkit! This comprehensive collection of gu
 - **[`Project-Management/CONTRIBUTING.md`](Project-Management/CONTRIBUTING.md)**: Guidelines for contributing to this toolkit project.
 - **[`Project-Management/maintainers.md`](Project-Management/maintainers.md)**: Maintainers guide.
 - **[`Project-Management/reviewers.md`](Project-Management/reviewers.md)**: Reviewers guide.
+- **[`Project-Management/LabelsIssuesProjects.md`](Project-Management/LabelsIssuesProjects.md)**: Best practices for using GitHub Issues, Labels, Milestones, and Projects.
+- **[`Project-Management/DiscussionsAndFunding.md`](Project-Management/DiscussionsAndFunding.md)**: Enabling GitHub Discussions; adding FUNDING.yml for sponsorships.
 
 ### Additional Resources
 - **[`Additional/write-up.md`](Additional/write-up.md)**: Planning document and notes for the toolkit development.

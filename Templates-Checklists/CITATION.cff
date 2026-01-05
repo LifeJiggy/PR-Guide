@@ -1,0 +1,94 @@
+# CITATION.cff
+
+# This CITATION.cff file follows the Citation File Format specification
+# More info: https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this toolkit, please cite it as below."
+type: software
+title: "Production Guide Toolkit"
+abstract: "A comprehensive collection of guides for open source contribution, production-ready code management, and GitHub best practices."
+authors:
+  - family-names: "LifeJiggy"
+    given-names: "Arkhangellifejiggy"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Replace with actual ORCID if available
+repository-code: "https://github.com/LifeJiggy/PR-Guide"
+url: "https://github.com/LifeJiggy/PR-Guide"
+license: MIT
+preferred-citation:
+  type: software
+  title: "Production Guide Toolkit: Advanced Open Source Contribution and GitHub Usage"
+  authors:
+    - family-names: "LifeJiggy"
+      given-names: "Arkhangellifejiggy"
+  repository-code: "https://github.com/LifeJiggy/PR-Guide"
+  url: "https://github.com/LifeJiggy/PR-Guide"
+  license: MIT
+  year: 2024
+
+# Keywords to help others find your work
+keywords:
+  - "open-source"
+  - "git"
+  - "github"
+  - "production"
+  - "development"
+  - "collaboration"
+  - "best-practices"
+  - "ci-cd"
+  - "code-quality"
+  - "project-management"
+
+# References to related works or dependencies
+references:
+  - type: software
+    title: "Git"
+    url: "https://git-scm.com/"
+    authors:
+      - family-names: "Torvalds"
+        given-names: "Linus"
+  - type: software
+    title: "GitHub"
+    url: "https://github.com"
+    authors:
+      - name: "GitHub Inc."
+
+# Contact information
+contact:
+  - family-names: "LifeJiggy"
+    given-names: "Arkhangellifejiggy"
+    email: "your-email@example.com"  # Replace with actual email
+
+# Additional identifiers
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.1234567"  # Replace with actual DOI if available
+  - type: url
+    value: "https://github.com/LifeJiggy/PR-Guide"
+
+# License SPDX identifier
+license: MIT
+
+# Date of first release
+date-released: 2024-01-01
+
+# Current version
+version: "1.0.0"
+
+# Repository information
+repository: "https://github.com/LifeJiggy/PR-Guide"
+repository-artifact: "https://github.com/LifeJiggy/PR-Guide/releases"
+
+# Commit information (optional, for specific versions)
+commit: "cf60f7a"  # Replace with actual commit hash
+
+# Example BibTeX citation (optional)
+preferred-citation:
+  type: software
+  title: "Production Guide Toolkit"
+  authors:
+    - family-names: "LifeJiggy"
+      given-names: "Arkhangellifejiggy"
+  year: 2024
+  url: "https://github.com/LifeJiggy/PR-Guide"
+  version: "1.0.0"
